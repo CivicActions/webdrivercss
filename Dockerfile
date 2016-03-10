@@ -9,4 +9,4 @@ RUN apt-get update && \
 RUN npm link && \
     npm link webdrivercss
 
-CMD node 
+CMD /usr/src/app/node_modules/webdriverio/bin/wdio
